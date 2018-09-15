@@ -1,0 +1,73 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="80810DF1-E3B8-E811-8B10-ACDE48001122" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="1A1D5BF5-E3B8-E811-8B10-ACDE48001122" controlTypeID="Map" x="10" y="10" w="357" h="365" zOrder="0"/>
+    <control controlID="4828FD5A-E4B8-E811-8B10-ACDE48001122" controlTypeID="Icon" x="286" y="143" w="24" h="24" zOrder="1">
+      <color>4290427578</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="80896EEB-E4B8-E811-8B10-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Navigation-alert">
+          <area shape="0" alt="" ID="{EA2643F3-E7B8-E811-8B10-ACDE48001122}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61505</iconCode>
+      </icon>
+      <URL>4E67C68D00B9D8D60EF5C6878D9C8013.svg</URL>
+    </control>
+    <control controlID="F6DD7B91-E4B8-E811-8B10-ACDE48001122" controlTypeID="Icon" x="283" y="266" w="24" h="24" zOrder="2">
+      <interactiveData>
+        <entry title="">
+          <area shape="0" alt="" ID="{2AE17B91-E4B8-E811-8B10-ACDE48001122}" coords="(0,0,24,24)"/>
+          <events title="">
+            <event eventType="atClick" isChecked="True">
+              <behaviour title="" isChecked="True" isWait="False" isLoop="False" execMode="emParallel">
+                <target targetID="F6DD7B91-E4B8-E811-8B10-ACDE48001122" IsNeedReplaceAsSelfID="True" isChecked="True" isAutoRecovery="False" isLoop="False" execMode="emSequence">
+                  <command name="Move" isChecked="True" descrition="">
+                    <param name="AniInterpolation" value="1" varType="3" description=""/>
+                    <param name="AniDuration" value="800" varType="4" description=""/>
+                    <param name="AniAutoReverse" value="False" varType="11" description=""/>
+                    <param name="AniLoop" value="False" varType="11" description=""/>
+                    <param name="AniInterpolationTypeOut" value="False" varType="11" description=""/>
+                    <param name="Delay" value="0" varType="3" description=""/>
+                    <param name="MoveMode" value="1" varType="3" description=""/>
+                    <param name="ValueFromCurrent" value="True" varType="11" description=""/>
+                    <param name="FromX" value="0" varType="3" description=""/>
+                    <param name="FromY" value="0" varType="3" description=""/>
+                    <param name="ToX" value="286" varType="256" description=""/>
+                    <param name="ToY" value="160" varType="256" description=""/>
+                    <param name="ByX" value="200" varType="3" description=""/>
+                    <param name="ByY" value="0" varType="3" description=""/>
+                    <param name="TerminateLoopByClick" value="True" varType="11" description=""/>
+                    <param name="MovePlaceVert" value="3" varType="3" description=""/>
+                    <param name="MovePlaceHori" value="1" varType="3" description=""/>
+                  </command>
+                </target>
+              </behaviour>
+            </event>
+          </events>
+        </entry>
+      </interactiveData>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62360</iconCode>
+      </icon>
+      <URL>DA70683EF29683A64ECF2F61792FB7A2.svg</URL>
+    </control>
+    <control controlID="0A736753-E8B8-E811-8B10-ACDE48001122" controlTypeID="Icon" x="24" y="24" w="24" h="24" zOrder="3">
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62332</iconCode>
+      </icon>
+      <URL>6F02C335AB5E335179869A0CEC5FBC90.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

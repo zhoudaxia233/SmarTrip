@@ -1,0 +1,42 @@
+﻿<project version="2.9" name="Project" ID="D6800DF1-E3B8-E811-8B10-ACDE48001122">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtMobile" orientation="MoPortrait" mobileScreenScale="1.77777779102325" mobileType="mmtIOS" pageSize="(375,812)" backgroundColor="4294967295" fontSize="0" fontFamily="" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="Navigation-normal" ID="80810DF1-E3B8-E811-8B10-ACDE48001122" expanded="False" code="eV2gAqatnV" thumbCode="eV2gAqatnV" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DA70683EF29683A64ECF2F61792FB7A2.svg"/>
+        <image key="6F02C335AB5E335179869A0CEC5FBC90.svg"/>
+        <image key="4E67C68D00B9D8D60EF5C6878D9C8013.svg"/>
+      </images>
+    </page>
+    <page name="Navigation-alert" ID="80896EEB-E4B8-E811-8B10-ACDE48001122" expanded="True" code="rJhXJdy8jV" thumbCode="X6oOMYT9OZ" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DA70683EF29683A64ECF2F61792FB7A2.svg"/>
+        <image key="6F02C335AB5E335179869A0CEC5FBC90.svg"/>
+        <image key="D62696336832CD00B962DAFC3FB2B16F.svg"/>
+        <image key="4E67C68D00B9D8D60EF5C6878D9C8013.svg"/>
+      </images>
+    </page>
+  </pages>
+  <trash>
+    <page name="Page" ID="EC534DC7-E4B8-E811-8B10-ACDE48001122" expanded="False" code="NXcUevpCna" thumbCode="ViswQNzcWI" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Navigation-normal1" ID="9E3780C9-E7B8-E811-8B10-ACDE48001122" expanded="False" code="vOs3qSRwr3" thumbCode="K6ut536YR5" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="DA70683EF29683A64ECF2F61792FB7A2.svg"/>
+        <image key="4E67C68D00B9D8D60EF5C6878D9C8013.svg"/>
+      </images>
+    </page>
+  </trash>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="4E67C68D00B9D8D60EF5C6878D9C8013.svg"/>
+    <image key="DA70683EF29683A64ECF2F61792FB7A2.svg"/>
+    <image key="6F02C335AB5E335179869A0CEC5FBC90.svg"/>
+    <image key="D62696336832CD00B962DAFC3FB2B16F.svg"/>
+  </images>
+</project>

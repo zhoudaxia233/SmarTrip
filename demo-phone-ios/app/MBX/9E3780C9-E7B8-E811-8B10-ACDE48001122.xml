@@ -1,0 +1,33 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="80810DF1-E3B8-E811-8B10-ACDE48001122" platform="MtMobile" defaultW="375" defaultH="812" measureW="375" measureH="812" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="3">
+    <control controlID="1A1D5BF5-E3B8-E811-8B10-ACDE48001122" controlTypeID="Map" x="10" y="10" w="357" h="365" zOrder="0"/>
+    <control controlID="4828FD5A-E4B8-E811-8B10-ACDE48001122" controlTypeID="Icon" x="286" y="143" w="24" h="24" zOrder="1">
+      <color>4290427578</color>
+      <icon>
+        <ID/>
+        <iconFontName>jdFontAwesome</iconFontName>
+        <iconCode>61505</iconCode>
+      </icon>
+      <URL>4E67C68D00B9D8D60EF5C6878D9C8013.svg</URL>
+    </control>
+    <control controlID="F6DD7B91-E4B8-E811-8B10-ACDE48001122" controlTypeID="Icon" x="286" y="160" w="24" h="24" zOrder="2">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="80896EEB-E4B8-E811-8B10-ACDE48001122" linkType="ltPageLink" isApplyIncludePage="False" title="Navigation-alert">
+          <area shape="0" alt="" ID="{30968E84-E7B8-E811-8B10-ACDE48001122}" coords="(0,0,24,24)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>62360</iconCode>
+      </icon>
+      <URL>DA70683EF29683A64ECF2F61792FB7A2.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>
