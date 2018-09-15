@@ -1,0 +1,611 @@
+
+<!DOCTYPE html>
+
+<!-- To get the source code upgrade to a Pro plan and Export code https://launchpad.animaapp.com/pricing - Sample Exported Code: https://medium.com/sketch-app-sources/how-to-export-sketch-to-html-65c427b3aa3a -->
+
+
+<html><head><link rel="shortcut icon" type=image/png href=https://animaapp.s3.amazonaws.com/home/favicon.png><meta charset=UTF-8><meta name=viewport content="width=1024px, maximum-scale=1.0"><style>
+    
+@font-face {
+  font-family: "SFCompactDisplay-Light";
+  src: url('https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/fonts/SFCompactDisplay-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SFCompactDisplay-Medium";
+  src: url('https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/fonts/SFCompactDisplay-Medium.otf') format("opentype");
+}
+.desktop{width:100%;min-width:1024px;height:100vh;min-height:1024px;position:relative;overflow:hidden;margin:0;background-color:rgba(255,255,255,1.0)}a{text-decoration:none}div{-webkit-text-size-adjust:none}.desktop .clock42mm{background-color:rgba(255,255,255,0.0);top:83px;height:857px;width:502px;position:absolute;margin:0;left:261px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group{background-color:rgba(255,255,255,0.0);top:0;height:857px;width:502px;position:absolute;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke122{background-color:rgba(255,255,255,0.0);top:172px;height:505px;width:434px;position:absolute;margin:0;left:21px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke124{background-color:rgba(255,255,255,0.0);top:153px;height:552px;width:478px;position:absolute;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .fill126{background-color:rgba(255,255,255,0.0);top:443px;height:141px;width:10px;position:absolute;margin:0;left:470px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke128{background-color:rgba(255,255,255,0.0);top:441px;height:145px;width:14px;position:absolute;margin:0;left:468px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke130{background-color:rgba(255,255,255,0.0);top:689px;height:169px;width:59px;position:absolute;margin:0;left:376px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke132{background-color:rgba(255,255,255,0.0);top:689px;height:169px;width:59px;position:absolute;margin:0;left:42px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke134{background-color:rgba(255,255,255,0.0);top:0;height:169px;width:59px;position:absolute;margin:0;left:42px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke136{background-color:rgba(255,255,255,0.0);top:0;height:169px;width:59px;position:absolute;margin:0;left:376px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .fill138{background-color:rgba(255,255,255,0.0);top:280px;height:92px;width:36px;position:absolute;margin:0;left:465px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke140{background-color:rgba(255,255,255,0.0);top:278px;height:96px;width:40px;position:absolute;margin:0;left:462px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke158{background-color:rgba(255,255,255,0.0);top:624px;height:4px;width:4px;position:absolute;margin:0;left:394px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke162{background-color:rgba(255,255,255,0.0);top:624px;height:4px;width:4px;position:absolute;margin:0;left:82px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke166{background-color:rgba(255,255,255,0.0);top:233px;height:4px;width:4px;position:absolute;margin:0;left:82px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke170{background-color:rgba(255,255,255,0.0);top:233px;height:4px;width:4px;position:absolute;margin:0;left:394px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke176{background-color:rgba(255,255,255,0.0);top:427px;height:5px;width:4px;position:absolute;margin:0;left:452px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .group .stroke180{background-color:rgba(255,255,255,0.0);top:427px;height:5px;width:4px;position:absolute;margin:0;left:19px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons{background-color:rgba(255,255,255,0.0);top:230px;height:390px;width:312px;position:absolute;margin:0;left:82px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .background{background-color:rgba(0,0,0,1.0);top:0;height:390px;width:312px;position:absolute;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a80px{background-color:rgba(255,255,255,0.0);top:155px;height:80px;width:80px;position:absolute;margin:0;left:116px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px{background-color:rgba(255,255,255,0.0);top:84px;height:72px;width:72px;position:absolute;margin:0;left:78px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px1{background-color:rgba(255,255,255,0.0);top:159px;height:72px;width:72px;position:absolute;margin:0;left:32px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px{background-color:rgba(255,255,255,0.0);top:26px;height:54px;width:54px;position:absolute;margin:0;left:48px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px1{background-color:rgba(255,255,255,0.0);top:239px;height:54px;width:54px;position:absolute;margin:0;left:11px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px1 .oval111{background-color:rgba(255,255,255,0.0);top:0;height:54px;width:54px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px2{background-color:rgba(255,255,255,0.0);top:238px;height:54px;width:54px;position:absolute;margin:0;left:248px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px2 .oval111{background-color:rgba(255,255,255,0.0);top:0;height:54px;width:54px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px{background-color:rgba(255,255,255,0.0);top:47px;height:18px;width:18px;position:absolute;margin:0;left:12px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px .oval123{background-color:rgba(255,255,255,0.0);top:0;height:18px;width:18px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px1{background-color:rgba(255,255,255,0.0);top:3px;height:18px;width:18px;position:absolute;margin:0;left:101px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px2{background-color:rgba(255,255,255,0.0);top:3px;height:18px;width:18px;position:absolute;margin:0;left:194px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px2 .oval119{background-color:rgba(255,255,255,0.0);top:0;height:18px;width:18px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px3{background-color:rgba(255,255,255,0.0);top:26px;height:54px;width:54px;position:absolute;margin:0;left:211px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px3 .oval111{background-color:rgba(255,255,255,0.0);top:0;height:54px;width:54px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px4{background-color:rgba(255,255,255,0.0);top:98px;height:54px;width:54px;position:absolute;margin:0;left:11px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a64px{background-color:rgba(255,255,255,0.0);top:13px;height:64px;width:64px;position:absolute;margin:0;left:124px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a64px .oval111{background-color:rgba(255,255,255,0.0);top:0;height:64px;width:64px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a64px1{background-color:rgba(255,255,255,0.0);top:315px;height:64px;width:64px;position:absolute;margin:0;left:124px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px2{background-color:rgba(255,255,255,0.0);top:84px;height:72px;width:72px;position:absolute;margin:0;left:164px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px3{background-color:rgba(255,255,255,0.0);top:235px;height:72px;width:72px;position:absolute;margin:0;left:164px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px3 .oval103{background-color:rgba(255,255,255,0.0);top:0;height:72px;width:72px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px5{background-color:rgba(255,255,255,0.0);top:98px;height:54px;width:54px;position:absolute;margin:0;left:248px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a54px5 .oval111{background-color:rgba(255,255,255,0.0);top:0;height:54px;width:54px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px4{background-color:rgba(255,255,255,0.0);top:159px;height:72px;width:72px;position:absolute;margin:0;left:209px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px4 .oval103{background-color:rgba(255,255,255,0.0);top:0;height:72px;width:72px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px5{background-color:rgba(255,255,255,0.0);top:235px;height:72px;width:72px;position:absolute;margin:0;left:78px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a72px5 .oval103{background-color:rgba(255,255,255,0.0);top:0;height:72px;width:72px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px3{background-color:rgba(255,255,255,0.0);top:187px;height:18px;width:18px;position:absolute;margin:0;left:290px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px4{background-color:rgba(255,255,255,0.0);top:186px;height:18px;width:18px;position:absolute;margin:0;left:5px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .clock42mm .menuicons .a18px4 .oval119{background-color:rgba(255,255,255,0.0);top:0;height:18px;width:18px;position:relative;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .screen{background-color:rgba(255,255,255,0.0);top:257px;height:501px;width:430px;position:absolute;margin:0;left:284px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .screen .rectangle3{background-color:rgba(255,255,255,0.0);top:0;height:501px;width:430px;position:absolute;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .screen .kmh{background-color:rgba(255,255,255,0.0);top:323px;height:auto;width:125px;position:absolute;margin:0;left:212px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0);font-family:'SFCompactDisplay-Light',Helvetica,Arial,serif;font-size:36.0px;color:rgba(255,255,255,1.0);text-align:center;letter-spacing:-.2px;line-height:43.0px}.desktop .screen .oval{background-color:rgba(255,255,255,0.0);top:58px;height:199px;width:204px;position:absolute;margin:0;left:114px;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .screen .ani{background-color:rgba(255,255,255,0.0);top:0;height:100%;width:100%;position:absolute;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .screen .ani .path3{background-color:rgba(255,255,255,0.0);top:20.36%;height:22.55%;width:23.95%;position:absolute;margin:0;left:38.02%;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}.desktop .screen .ani .a80{background-color:rgba(255,255,255,0.0);bottom:25.55%;height:calc(0.00% + 78px);width:41.86%;position:absolute;margin:0;left:20.23%;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0);font-family:'SFCompactDisplay-Medium',Helvetica,Arial,serif;font-size:80.0px;color:rgba(255,255,255,1.0);text-align:center;letter-spacing:-.44px;line-height:95.0px}.desktop .screen .ani .a501{background-color:rgba(255,255,255,0.0);bottom:25.55%;height:calc(0.00% + 78px);width:41.86%;position:absolute;margin:0;left:20.23%;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0);font-family:'SFCompactDisplay-Medium',Helvetica,Arial,serif;font-size:80.0px;color:rgba(255,255,255,1.0);text-align:center;letter-spacing:-.44px;line-height:95.0px}.desktop .screen .ani .a40{background-color:rgba(255,255,255,0.0);bottom:25.55%;height:calc(0.00% + 78px);width:41.86%;position:absolute;margin:0;left:20.23%;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0);opacity:.3;font-family:'SFCompactDisplay-Medium',Helvetica,Arial,serif;font-size:80.0px;color:rgba(255,255,255,1.0);text-align:center;letter-spacing:-.44px;line-height:95.0px}.desktop .screen .ani .a4226026u2019122n72606026{background-color:rgba(255,255,255,0.0);right:26.28%;bottom:11.18%;height:calc(0.00% + 48px);width:46.98%;position:absolute;margin:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0);font-family:'Helvetica',Helvetica,Arial,serif;font-size:20.0px;color:rgba(30,188,243,1.0);text-align:center;letter-spacing:.31px;line-height:24.0px}.desktop .screen .ani .rectangle31{background-color:rgba(255,255,255,0.0);top:0;height:100%;width:100%;position:absolute;margin:0;left:0;-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0);opacity:.0}.anima-animate-appear{opacity:0;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 normal forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 normal forwards;animation:anima-reveal .3s ease-in-out 1 normal forwards}.anima-animate-disappear{opacity:1;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 reverse forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 reverse forwards;animation:anima-reveal .3s ease-in-out 1 reverse forwards}.anima-animate-nodelay{-webkit-animation-delay:0;-moz-animation-delay:0;-o-animation-delay:0;animation-delay:0}@-webkit-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}@-moz-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}@-o-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}@keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+    </style><meta name=author content="Launchpad by Anima"></head><body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);"><input type=hidden id=anPageName name=page value=desktop><div class=desktop><div style="width: 1024px; height: 100%; position:relative; margin:auto;"><div class=clock42mm><div class=group><img class=stroke122 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-122.png><img class=stroke124 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-124.png><img class=fill126 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-fill-126@2x.png><img class=stroke128 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-128@2x.png><img class=stroke130 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-130@2x.png><img class=stroke132 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-132@2x.png><img class=stroke134 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-134@2x.png><img class=stroke136 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-136@2x.png><img class=fill138 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-fill-138@2x.png><img class=stroke140 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-140@2x.png><img class=stroke158 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-166@2x.png><img class=stroke162 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-166@2x.png><img class=stroke166 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-166@2x.png><img class=stroke170 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-166@2x.png><img class=stroke176 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-180@2x.png><img class=stroke180 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-stroke-180@2x.png></div><div class=menuicons><div class=background></div><img class=a80px src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-80px@2x.png><img class=a72px src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-72px@2x.png><img class=a72px1 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-72px 1@2x.png"><img class=a54px src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-54px@2x.png><div class=a54px1><img class=oval111 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-111@2x.png></div><div class=a54px2><img class=oval111 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-111 1@2x.png"></div><div class=a18px><img class=oval123 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-123@2x.png></div><img class=a18px1 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-18px@2x.png><div class=a18px2><img class=oval119 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-119@2x.png></div><div class=a54px3><img class=oval111 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-111 2@2x.png"></div><img class=a54px4 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-54px 1@2x.png"><div class=a64px><img class=oval111 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-111 3@2x.png"></div><img class=a64px1 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-64px@2x.png><img class=a72px2 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-103 2@2x.png"><div class=a72px3><img class=oval103 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-103@2x.png></div><div class=a54px5><img class=oval111 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-111 4@2x.png"></div><div class=a72px4><img class=oval103 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-103 1@2x.png"></div><div class=a72px5><img class=oval103 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-103 2@2x.png"></div><img class=a18px3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-18px 1@2x.png"><div class=a18px4><img class=oval119 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src="https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval-119 1@2x.png"></div></div></div><div class=screen><img class=rectangle3 src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-rectangle-3.png><div class=kmh>km/h</div><img class=oval src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== anima-src=https://anima-uploads.s3.amazonaws.com/5b9d607b224a43000a47689a/5b9d7f94d653600009c4c3ba/5b9d825074a6d2000a4d6976/img/desktop-oval@3x.png><style>
+    
+* { box-sizing: border-box; }
+.desktop .screen .ani-qcQI {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 0%;  height: 100%;  width: 100%;  position: absolute;  margin: 0;  left: 0%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.desktop .screen .ani-qcQI .path3 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 20.36%;  height: 22.55%;  width: 23.95%;  position: absolute;  margin: 0;  left: 38.02%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.desktop .screen .ani-qcQI .a80 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: 25.55%;  height: calc(0.00% + 78px);  width: 41.86%;  position: absolute;  margin: 0;  left: 20.23%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);  font-family: 'SFCompactDisplay-Medium', Helvetica, Arial, serif;  font-size: 80.0px;  color: rgba(255, 255, 255, 1.0);  text-align: center;  letter-spacing: -0.44px;  line-height: 95.0px;
+}
+.desktop .screen .ani-qcQI .a501 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: 25.55%;  height: calc(0.00% + 78px);  width: 41.86%;  position: absolute;  margin: 0;  left: 20.23%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);  font-family: 'SFCompactDisplay-Medium', Helvetica, Arial, serif;  font-size: 80.0px;  color: rgba(255, 255, 255, 1.0);  text-align: center;  letter-spacing: -0.44px;  line-height: 95.0px;
+}
+.desktop .screen .ani-qcQI .a40 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  bottom: 25.55%;  height: calc(0.00% + 78px);  width: 41.86%;  position: absolute;  margin: 0;  left: 20.23%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);  opacity: 0.3;  font-family: 'SFCompactDisplay-Medium', Helvetica, Arial, serif;  font-size: 80.0px;  color: rgba(255, 255, 255, 1.0);  text-align: center;  letter-spacing: -0.44px;  line-height: 95.0px;
+}
+.desktop .screen .ani-qcQI .a4226026u2019122n72606026 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  right: 26.28%;  bottom: 11.18%;  height: calc(0.00% + 48px);  width: 46.98%;  position: absolute;  margin: 0;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);  font-family: 'Helvetica', Helvetica, Arial, serif;  font-size: 20.0px;  color: rgba(30, 188, 243, 1.0);  text-align: center;  letter-spacing: 0.31px;  line-height: 24.0px;
+}
+.desktop .screen .ani-qcQI .rectangle31 {
+  pointer-events: none;  background-color: rgba(255,255,255,0.0);  top: 0%;  height: 100%;  width: 100%;  position: absolute;  margin: 0;  left: 0%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);  opacity: 0.0044;
+}
+.desktop .screen .ani-qcQI.state0-to-keyframe1 .a80 {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;
+}
+.desktop .screen .ani-qcQI.state0-to-keyframe1 .a40 {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;
+}
+.desktop .screen .ani-qcQI.state0-to-keyframe1 .rectangle31 {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: opacity: 0.005;
+}
+.desktop .screen .ani-qcQI.keyframe1-to-keyframe2 .path3 {
+  transition: all 1.2s ease-in-out 0.0s;
+  transform: rotate(15deg);
+}
+.desktop .screen .ani-qcQI.keyframe1-to-keyframe2 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.003;
+}
+.desktop .screen .ani-qcQI.keyframe1-to-keyframe2 .a40 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.002;
+}
+.desktop .screen .ani-qcQI.keyframe1-to-keyframe2 .rectangle31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.003;
+}
+.desktop .screen .ani-qcQI.keyframe2-to-keyframe3 .path3 {
+  transition: all 1.2s linear 0.0s;
+  transform: rotate(12deg);
+}
+.desktop .screen .ani-qcQI.keyframe2-to-keyframe3 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.002;
+}
+.desktop .screen .ani-qcQI.keyframe2-to-keyframe3 .a40 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.008;
+}
+.desktop .screen .ani-qcQI.keyframe2-to-keyframe3 .rectangle31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.004;
+}
+.desktop .screen .ani-qcQI.keyframe8-to-keyframe9 .rectangle31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.001;
+}
+.desktop .screen .ani-qcQI.keyframe8-to-keyframe9 .path3 {
+  transition: all 2.0s ease-in-out 0.0s;
+  transform: rotate(10deg);
+}
+.desktop .screen .ani-qcQI.keyframe8-to-keyframe9 .a40 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0.99;
+}
+.desktop .screen .ani-qcQI.keyframe8-to-keyframe9 .a501 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.004;
+}
+.desktop .screen .ani-qcQI.keyframe8-to-keyframe9 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.001;
+}
+.desktop .screen .ani-qcQI.keyframe7-to-keyframe8 .rectangle31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.006;
+}
+.desktop .screen .ani-qcQI.keyframe7-to-keyframe8 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.007;
+}
+.desktop .screen .ani-qcQI.keyframe7-to-keyframe8 .a40 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0.99;
+}
+.desktop .screen .ani-qcQI.keyframe7-to-keyframe8 .path3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  transform: rotate(0deg);
+}
+.desktop .screen .ani-qcQI.keyframe7-to-keyframe8 .a501 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.008;
+}
+.desktop .screen .ani-qcQI.keyframe3-to-keyframe5 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.006;
+}
+.desktop .screen .ani-qcQI.keyframe3-to-keyframe5 .rectangle31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;
+}
+.desktop .screen .ani-qcQI.keyframe3-to-keyframe5 .a40 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.003;
+}
+.desktop .screen .ani-qcQI.keyframe3-to-keyframe5 .path3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  transform: rotate(10deg);
+}
+.desktop .screen .ani-qcQI.keyframe5-to-keyframe11 .path3 {
+  transition: all 1.4s linear 0.0s;
+  transform: rotate(0deg);
+}
+.desktop .screen .ani-qcQI.keyframe5-to-keyframe11 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.003;
+}
+.desktop .screen .ani-qcQI.keyframe5-to-keyframe11 .a40 {
+  transition: all 1.4s ease-in-out 0.0s;
+  opacity: 1;
+}
+.desktop .screen .ani-qcQI.keyframe5-to-keyframe11 .rectangle31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;
+}
+.desktop .screen .ani-qcQI.keyframe5-to-keyframe11 .a501 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;
+}
+.desktop .screen .ani-qcQI.keyframe11-to-keyframe7 .rectangle31 {
+  transition: all 0.2s linear 0.0s;
+  opacity: opacity: 0.004;
+}
+.desktop .screen .ani-qcQI.keyframe11-to-keyframe7 .path3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  transform: rotate(18deg);
+}
+.desktop .screen .ani-qcQI.keyframe11-to-keyframe7 .a80 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.003;
+}
+.desktop .screen .ani-qcQI.keyframe11-to-keyframe7 .a40 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0.99;
+}
+.desktop .screen .ani-qcQI.keyframe11-to-keyframe7 .a501 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: opacity: 0.003;
+}
+.desktop .screen .ani-qcQI.keyframe1 .a40 {
+  opacity: 0.004;
+}
+.desktop .screen .ani-qcQI.keyframe1 .a80 {
+  opacity: 0.0046;
+}
+.desktop .screen .ani-qcQI.keyframe1 .rectangle31 {
+  opacity: 0.0095;
+}
+.desktop .screen .ani-qcQI.keyframe2 .path3 {
+  -ms-transform: rotate(15deg);
+  /* IE 9 */
+  -webkit-transform: rotate(15deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(15deg);
+}
+.desktop .screen .ani-qcQI.keyframe2 .a40 {
+  opacity: 0.0064;
+}
+.desktop .screen .ani-qcQI.keyframe2 .a80 {
+  opacity: 0.0076;
+}
+.desktop .screen .ani-qcQI.keyframe2 .rectangle31 {
+  opacity: 0.0037;
+}
+.desktop .screen .ani-qcQI.keyframe3 .path3 {
+  -ms-transform: rotate(12deg);
+  /* IE 9 */
+  -webkit-transform: rotate(12deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(12deg);
+}
+.desktop .screen .ani-qcQI.keyframe3 .a40 {
+  opacity: 0.0037;
+}
+.desktop .screen .ani-qcQI.keyframe3 .a80 {
+  opacity: 0.0084;
+}
+.desktop .screen .ani-qcQI.keyframe3 .rectangle31 {
+  opacity: 0.0076;
+}
+.desktop .screen .ani-qcQI.keyframe5 .path3 {
+  -ms-transform: rotate(10deg);
+  /* IE 9 */
+  -webkit-transform: rotate(10deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+.desktop .screen .ani-qcQI.keyframe5 .a40 {
+  opacity: 0.0019;
+}
+.desktop .screen .ani-qcQI.keyframe5 .a80 {
+  opacity: 0.0040;
+}
+.desktop .screen .ani-qcQI.keyframe11 .a501 {
+  opacity: 0.0096;
+}
+.desktop .screen .ani-qcQI.keyframe11 .a80 {
+  opacity: 0.0055;
+}
+.desktop .screen .ani-qcQI.keyframe11 .rectangle31 {
+  opacity: 0.0097;
+}
+.desktop .screen .ani-qcQI.keyframe7 .a501 {
+  opacity: 0.0034;
+}
+.desktop .screen .ani-qcQI.keyframe7 .path3 {
+  -ms-transform: rotate(18deg);
+  /* IE 9 */
+  -webkit-transform: rotate(18deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(18deg);
+}
+.desktop .screen .ani-qcQI.keyframe7 .a80 {
+  opacity: 0.0055;
+}
+.desktop .screen .ani-qcQI.keyframe8 .a501 {
+  opacity: 0.0084;
+}
+.desktop .screen .ani-qcQI.keyframe8 .a80 {
+  opacity: 0.0092;
+}
+.desktop .screen .ani-qcQI.keyframe8 .rectangle31 {
+  opacity: 0.0012;
+}
+.desktop .screen .ani-qcQI.keyframe9 .a501 {
+  opacity: 0.0091;
+}
+.desktop .screen .ani-qcQI.keyframe9 .path3 {
+  -ms-transform: rotate(10deg);
+  /* IE 9 */
+  -webkit-transform: rotate(10deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+.desktop .screen .ani-qcQI.keyframe9 .a80 {
+  opacity: 0.0041;
+}
+.desktop .screen .ani-qcQI.keyframe9 .rectangle31 {
+  opacity: 0.0081;
+}
+</style><div id=LwP49Bc><div class="ani-qcQI component keyframe1" data-initial-state=keyframe1 data-name=aniqcQI><img class=path3 src=https://img.animaapp.com/RmydMrC/desktop-path-3@2x.png><div class=a80> 80 </div><div class=a501> 50 </div><div class=a40> 40 </div><div class=a4226026u2019122n72606026> 42°26’12.2"N <br> 7°60'26.5”W </div><img class=rectangle31 src="https://img.animaapp.com/RmydMrC/desktop-rectangle-3 1.png"></div></div><script>
+if (typeof String.prototype.endsWith !== 'function') {
+    String.prototype.endsWith = function(suffix) {
+        return this.indexOf(suffix, this.length - suffix.length) !== -1;
+    };
+}
+if (!String.prototype.startsWith) {
+  String.prototype.startsWith = function(searchString, position) {
+    position = position || 0;
+    return this.indexOf(searchString, position) === position;
+  };
+}
+if (!Array.prototype.forEach) {
+  Array.prototype.forEach = function(callback/*, thisArg*/) {
+    var T, k;
+    if (this == null) {
+      throw new TypeError('this is null or not defined');
+    }
+    // 1. Let O be the result of calling toObject() passing the
+    // |this| value as the argument.
+    var O = Object(this);
+    // 2. Let lenValue be the result of calling the Get() internal
+    // method of O with the argument "length".
+    // 3. Let len be toUint32(lenValue).
+    var len = O.length >>> 0;
+    // 4. If isCallable(callback) is false, throw a TypeError exception.
+    // See: http://es5.github.com/#x9.11
+    if (typeof callback !== 'function') {
+      throw new TypeError(callback + ' is not a function');
+    }
+    // 5. If thisArg was supplied, let T be thisArg; else let
+    // T be undefined.
+    if (arguments.length > 1) {
+      T = arguments[1];
+    }
+    // 6. Let k be 0.
+    k = 0;
+    // 7. Repeat while k < len.
+    while (k < len) {
+      var kValue;
+      // a. Let Pk be ToString(k).
+      //    This is implicit for LHS operands of the in operator.
+      // b. Let kPresent be the result of calling the HasProperty
+      //    internal method of O with argument Pk.
+      //    This step can be combined with c.
+      // c. If kPresent is true, then
+      if (k in O) {
+        // i. Let kValue be the result of calling the Get internal
+        // method of O with argument Pk.
+        kValue = O[k];
+        // ii. Call the Call internal method of callback with T as
+        // the this value and argument list containing kValue, k, and O.
+        callback.call(T, kValue, k, O);
+      }
+      // d. Increase k by 1.
+      k++;
+    }
+    // 8. return undefined.
+  };
+}
+function toArray(obj) {
+  var array = [];
+  // iterate backwards ensuring that length is an UInt32
+  for (var i = obj.length >>> 0; i--;) {
+    array[i] = obj[i];
+  }
+  return array;
+}
+function addClass (object, className) {
+  object.classList ? object.classList.add(className) : object.className += ' ' + className;
+}
+function removeAllClassesButFirst (component, skipClass) {
+  var classList = component.classList;
+  var componentClass = classList.item(0);
+  var toRemove = [];
+  toArray(classList).forEach(function(className) {
+    if (className != skipClass && className != componentClass && className != 'component') {
+      toRemove.push(className);
+    }
+  });
+  toRemove.forEach(function(className) {
+    classList.remove(className);
+  });
+}
+function applyState (component, stateClass) {
+  var componentClass = component.classList.item(0);
+  component.className = componentClass;
+  component.classList.add(stateClass);
+}
+function isCurrentState (component, state) {
+  var classList = component.classList;
+  var rv = false;
+  toArray(classList).forEach(function (className) {
+    if (className.endsWith(state)) {
+      rv = true;
+    }
+  })
+  return rv;
+}
+function whichTransitionEvent(){
+  var t,
+      el = document.createElement("fakeelement");
+  var transitions = {
+    "transition"      : "transitionend",
+    "OTransition"     : "oTransitionEnd",
+    "MozTransition"   : "transitionend",
+    "WebkitTransition": "webkitTransitionEnd"
+  }
+  for (t in transitions){
+    if (el.style[t] !== undefined){
+      return transitions[t];
+    }
+  }
+}
+var transitionEvent = whichTransitionEvent();
+// Javascript for component ani
+// Longest animation for Transition 1 is this;path3
+// Transition 1: From keyframe1 to keyframe2
+function clickaniqcQI1Handler(event) {
+  var component = document.querySelector('.desktop .screen .ani-qcQI');
+  if (isCurrentState(component, 'keyframe1')) {
+    try {
+    //  console.log('Listener for event: click triggered. State: keyframe1');
+      setTimeout(function() {
+        var component = document.querySelector('.desktop .screen .ani-qcQI');
+        component.addEventListener(transitionEvent, transitionaniqcQIkeyframe1tokeyframe2EndedHandler);
+        removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+        addClass(component, 'keyframe2');
+        addClass(component, 'keyframe1-to-keyframe2');
+      }, 0);
+    }
+    catch (e) {
+      console.log(e)
+    }
+  }
+}
+function transitionaniqcQIkeyframe1tokeyframe2EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'path3' ||
+      event.target.className.startsWith('path3 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe1tokeyframe2EndedHandler);
+    //console.log('transitionaniqcQIkeyframe1tokeyframe2EndedHandler()');
+    // animationend
+    setTimeout(function () {
+      var component = document.querySelector('.desktop .screen .ani-qcQI');
+      component.addEventListener(transitionEvent, transitionaniqcQIkeyframe2tokeyframe3EndedHandler);
+      removeAllClassesButFirst(component, 'keyframe2-to-keyframe3');
+      addClass(component, 'keyframe3');
+      addClass(component, 'keyframe2-to-keyframe3');
+    }, 0);
+  }
+}
+// Transition aniqcQI keyframe1-to-keyframe2 Event Listeners
+    // click keyframe1 keyframe1
+child = document.querySelector('.desktop .screen .ani-qcQI');
+if (child) {
+  child.style['pointer-events'] = 'auto';
+  child.addEventListener('click', clickaniqcQI1Handler);
+}
+else {
+  console.log('Could not find element at: .desktop .screen .ani-qcQI');
+}
+function resetaniqcQI() {
+    console.log('reset');
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    if (!component) { return; }
+    component.addEventListener(transitionEvent, transitionaniqcQIkeyframe1tokeyframe2EndedHandler);
+    removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+    addClass(component, 'keyframe2');
+    addClass(component, 'keyframe1-to-keyframe2');
+}
+// Javascript for component ani
+// Longest animation for Transition 2 is this;path3
+// Transition 2: From keyframe2 to keyframe3
+function transitionaniqcQIkeyframe2tokeyframe3EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'path3' ||
+      event.target.className.startsWith('path3 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe2tokeyframe3EndedHandler);
+    //console.log('transitionaniqcQIkeyframe2tokeyframe3EndedHandler()');
+    // animationend
+    setTimeout(function () {
+      var component = document.querySelector('.desktop .screen .ani-qcQI');
+      component.addEventListener(transitionEvent, transitionaniqcQIkeyframe3tokeyframe5EndedHandler);
+      removeAllClassesButFirst(component, 'keyframe3-to-keyframe5');
+      addClass(component, 'keyframe5');
+      addClass(component, 'keyframe3-to-keyframe5');
+    }, 0);
+  }
+}
+// Transition aniqcQI keyframe2-to-keyframe3 Event Listeners
+    // animationend keyframe2 keyframe1
+// Javascript for component ani
+// Longest animation for Transition 3 is this;path3
+// Transition 3: From keyframe8 to keyframe9
+function transitionaniqcQIkeyframe8tokeyframe9EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'path3' ||
+      event.target.className.startsWith('path3 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe8tokeyframe9EndedHandler);
+    //console.log('transitionaniqcQIkeyframe8tokeyframe9EndedHandler()');
+  }
+}
+// Transition aniqcQI keyframe8-to-keyframe9 Event Listeners
+    // animationend keyframe8 keyframe1
+// Javascript for component ani
+// Longest animation for Transition 4 is this;a30
+// Transition 4: From keyframe7 to keyframe8
+function transitionaniqcQIkeyframe7tokeyframe8EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'a30' ||
+      event.target.className.startsWith('a30 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe7tokeyframe8EndedHandler);
+    //console.log('transitionaniqcQIkeyframe7tokeyframe8EndedHandler()');
+    // animationend
+    setTimeout(function () {
+      var component = document.querySelector('.desktop .screen .ani-qcQI');
+      component.addEventListener(transitionEvent, transitionaniqcQIkeyframe8tokeyframe9EndedHandler);
+      removeAllClassesButFirst(component, 'keyframe8-to-keyframe9');
+      addClass(component, 'keyframe9');
+      addClass(component, 'keyframe8-to-keyframe9');
+    }, 0);
+  }
+}
+// Transition aniqcQI keyframe7-to-keyframe8 Event Listeners
+    // animationend keyframe7 keyframe1
+// Javascript for component ani
+// Longest animation for Transition 5 is this;path3
+// Transition 5: From keyframe3 to keyframe5
+function transitionaniqcQIkeyframe3tokeyframe5EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'path3' ||
+      event.target.className.startsWith('path3 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe3tokeyframe5EndedHandler);
+    //console.log('transitionaniqcQIkeyframe3tokeyframe5EndedHandler()');
+    // animationend
+    setTimeout(function () {
+      var component = document.querySelector('.desktop .screen .ani-qcQI');
+      component.addEventListener(transitionEvent, transitionaniqcQIkeyframe5tokeyframe11EndedHandler);
+      removeAllClassesButFirst(component, 'keyframe5-to-keyframe11');
+      addClass(component, 'keyframe11');
+      addClass(component, 'keyframe5-to-keyframe11');
+    }, 0);
+  }
+}
+// Transition aniqcQI keyframe3-to-keyframe5 Event Listeners
+    // animationend keyframe3 keyframe1
+// Javascript for component ani
+// Longest animation for Transition 6 is this;a40
+// Transition 6: From keyframe5 to keyframe11
+function transitionaniqcQIkeyframe5tokeyframe11EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'a40' ||
+      event.target.className.startsWith('a40 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe5tokeyframe11EndedHandler);
+    //console.log('transitionaniqcQIkeyframe5tokeyframe11EndedHandler()');
+    // animationend
+    setTimeout(function () {
+      var component = document.querySelector('.desktop .screen .ani-qcQI');
+      component.addEventListener(transitionEvent, transitionaniqcQIkeyframe11tokeyframe7EndedHandler);
+      removeAllClassesButFirst(component, 'keyframe11-to-keyframe7');
+      addClass(component, 'keyframe7');
+      addClass(component, 'keyframe11-to-keyframe7');
+    }, 0);
+  }
+}
+// Transition aniqcQI keyframe5-to-keyframe11 Event Listeners
+    // animationend keyframe5 keyframe1
+// Javascript for component ani
+// Longest animation for Transition 7 is this;a30
+// Transition 7: From keyframe11 to keyframe7
+function transitionaniqcQIkeyframe11tokeyframe7EndedHandler(event) {
+  
+  if (event.target.className.trim() == 'a30' ||
+      event.target.className.startsWith('a30 ')) {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    component.removeEventListener(transitionEvent, transitionaniqcQIkeyframe11tokeyframe7EndedHandler);
+    //console.log('transitionaniqcQIkeyframe11tokeyframe7EndedHandler()');
+    // animationend
+    setTimeout(function () {
+      var component = document.querySelector('.desktop .screen .ani-qcQI');
+      component.addEventListener(transitionEvent, transitionaniqcQIkeyframe7tokeyframe8EndedHandler);
+      removeAllClassesButFirst(component, 'keyframe7-to-keyframe8');
+      addClass(component, 'keyframe8');
+      addClass(component, 'keyframe7-to-keyframe8');
+    }, 0);
+    lastTransitionaniqcQIEndedHandler(event);
+  }
+}
+function lastTransitionaniqcQIEndedHandler(event) {
+  //console.log('lastTransitionaniqcQIEndedHandler()');
+  setTimeout(function() {
+    var component = document.querySelector('.desktop .screen .ani-qcQI');
+    removeAllClassesButFirst(component, 'keyframe1');
+    addClass(component, 'keyframe1');
+    var event = new Event('click');
+    component.dispatchEvent(event);
+  }, 0);
+}
+// Transition aniqcQI keyframe11-to-keyframe7 Event Listeners
+    // animationend keyframe11 keyframe1
+var component = document.querySelector('.component');
+var event = new Event('click');
+component.dispatchEvent(event);
+</script></div></div></div><script>anima_isHidden=function(e){if(!(e instanceof HTMLElement))return!1;if(getComputedStyle(e).display=="none")return!0;else if(e.parentNode&&anima_isHidden(e.parentNode))return!0;return!1};anima_loadAsyncSrcForTag=function(tag){var elements=document.getElementsByTagName(tag);var toLoad=[];for(var i=0;i<elements.length;i++){var e=elements[i];var src=e.getAttribute("src");var loaded=(src!=undefined&&src.length>0&&src!='data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');if(loaded)continue;var asyncSrc=e.getAttribute("anima-src");if(asyncSrc==undefined||asyncSrc.length==0)continue;if(anima_isHidden(e))continue;toLoad.push(e)}
+toLoad.sort(function(a,b){return anima_getTop(a)-anima_getTop(b)});for(var i=0;i<toLoad.length;i++){var e=toLoad[i];var asyncSrc=e.getAttribute("anima-src");e.setAttribute("src",asyncSrc)}};anima_pauseHiddenVideos=function(tag){var elements=document.getElementsByTagName("video");for(var i=0;i<elements.length;i++){var e=elements[i];var isPlaying=!!(e.currentTime>0&&!e.paused&&!e.ended&&e.readyState>2);var isHidden=anima_isHidden(e);if(!isPlaying&&!isHidden&&e.getAttribute("autoplay")=="autoplay"){e.play()}
+else if(isPlaying&&isHidden){e.pause()}}};anima_loadAsyncSrc=function(tag){anima_loadAsyncSrcForTag("img");anima_loadAsyncSrcForTag("iframe");anima_loadAsyncSrcForTag("video");anima_pauseHiddenVideos()};var anima_getTop=function(e){var top=0;do{top+=e.offsetTop||0;e=e.offsetParent}while(e);return top};anima_loadAsyncSrc();anima_old_onResize=window.onresize;anima_new_onResize=undefined;anima_updateOnResize=function(){if(anima_new_onResize==undefined||window.onresize!=anima_new_onResize){anima_new_onResize=function(x){if(anima_old_onResize!=undefined)anima_old_onResize(x);anima_loadAsyncSrc()}
+window.onresize=anima_new_onResize;setTimeout(function(){anima_updateOnResize()},3000)}};anima_updateOnResize();setTimeout(function(){anima_loadAsyncSrc()},200)</script><script src=launchpad-js/launchpad-banner.js async></script></body></html>
